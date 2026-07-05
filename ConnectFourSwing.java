@@ -75,7 +75,6 @@ public class ConnectFourSwing extends JFrame {
         setTitle("Connect Four \u2014 for young champions");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-
         cards.setLayout(cardLayout);
         cards.add(buildMenuCard(), "menu");
         cards.add(buildDifficultyCard(), "difficulty");
